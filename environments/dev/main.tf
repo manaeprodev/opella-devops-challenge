@@ -1,6 +1,9 @@
 provider "azurerm" {
   features {}
-  subscription_id = "d1b03d38-a01e-4346-9de9-c3363cb2a084"
+  client_id       = var.client_id
+  client_secret   = var.client_secret
+  subscription_id = var.subscription_id
+  tenant_id       = var.tenant_id
 }
 
 data "azurerm_client_config" "current" {}
