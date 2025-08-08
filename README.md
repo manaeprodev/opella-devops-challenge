@@ -1,6 +1,6 @@
 ## This is my try on taking on the Opella DevOps Challenge!
 
-I'm sure there is a lot of improvements that may be done, but this is also my first time working with GitHub Pipelines x Terraform!
+I'm sure there are lots of improvements that may be done, but this is also my first time working with GitHub Pipelines x Terraform!
 
 Some questions were also in the challenge and there are my answers : 
 
