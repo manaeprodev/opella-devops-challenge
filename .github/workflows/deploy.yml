@@ -1,4 +1,4 @@
-name: Terraform Deploy
+name: Terraform Deploy Dev Environment
 
 on:
   push:
@@ -9,7 +9,7 @@ on:
 
 jobs:
   terraform:
-    name: "Terraform Plan & Apply"
+    name: "Terraform Plan & Apply Dev Environment"
     runs-on: ubuntu-latest
 
     defaults:
@@ -20,7 +20,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Set up Terraform
+      - name: Set up TF
         uses: hashicorp/setup-terraform@v3
         with:
           terraform_version: 1.7.5
